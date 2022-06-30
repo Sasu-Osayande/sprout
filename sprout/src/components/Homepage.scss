@@ -1,0 +1,27 @@
+.sun {
+  // background-color: rgb(249, 249, 164);
+  background-image: linear-gradient(rgb(249, 249, 164), rgb(226, 253, 255));
+  background-attachment: fixed;
+  height: 1200px;
+}
+
+.sky {
+  // background-color: rgb(226, 253, 255);
+  background-image: linear-gradient(rgb(226, 253, 255), rgb(222, 232, 249));
+  background-attachment: fixed;
+  height: 1200px;
+}
+
+.water {
+  // background-color: rgb(222, 232, 249);
+  background-image: linear-gradient(rgb(222, 232, 249), rgb(215, 232, 198));
+  background-attachment: fixed;
+  height: 1200px;
+}
+
+.soil {
+  background-color: rgb(215, 232, 198);
+  // background-image: linear-gradient(rgb(215, 232, 198));
+  background-attachment: fixed;
+  height: 1200px;
+}
