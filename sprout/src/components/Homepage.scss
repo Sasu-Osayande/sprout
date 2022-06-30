@@ -1,6 +1,6 @@
 .sun {
   // background-color: rgb(249, 249, 164);
-  background-image: linear-gradient(rgb(249, 249, 164), rgb(226, 253, 255));
+  background-image: linear-gradient(rgb(249, 249, 205), rgb(226, 253, 255));
   background-attachment: fixed;
   height: 1200px;
 }
@@ -20,8 +20,14 @@
 }
 
 .soil {
-  background-color: rgb(215, 232, 198);
-  // background-image: linear-gradient(rgb(215, 232, 198));
+  // background-color: rgb(215, 232, 198);
+  background-image: linear-gradient(transparent, rgb(215, 232, 198));
   background-attachment: fixed;
   height: 1200px;
+}
+
+.divider {
+  width: 100%;
+  min-height: 2vh;
+  background-color: rgba(223, 243, 223, 0.543);
 }
