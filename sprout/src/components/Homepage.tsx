@@ -10,6 +10,9 @@ const Homepage: FC = () => (
         <Link to="/login">
           <button>Login</button>
         </Link>
+        <Link to="/register">
+          <button>Register</button>
+        </Link>
       </span>
     </div>
     <div className="divider"></div>
