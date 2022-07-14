@@ -2,18 +2,13 @@ import { FC } from "react";
 import { Link } from "react-router-dom";
 import "./Homepage.scss";
 
+import Navbar from "./Navbar";
+
 const Homepage: FC = () => (
   <div className="homepage">
+    <Navbar />
     <div className="hmpg-title sun">
-      <header>Sprout</header>
-      <span>
-        <Link to="/login">
-          <button>Login</button>
-        </Link>
-        <Link to="/register">
-          <button>Register</button>
-        </Link>
-      </span>
+      <span className="sprt-header">Sprout</span>
     </div>
     <div className="divider"></div>
     <div className="hmpg-title sky"></div>
