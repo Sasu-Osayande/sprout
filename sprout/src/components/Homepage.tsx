@@ -7,9 +7,7 @@ import Navbar from "./Navbar";
 const Homepage: FC = () => (
   <div className="homepage">
     <Navbar />
-    <div className="hmpg-title sun">
-      <span className="sprt-header">Sprout</span>
-    </div>
+    <div className="hmpg-title sun"></div>
     <div className="divider"></div>
     <div className="hmpg-title sky"></div>
     <div className="divider"></div>
