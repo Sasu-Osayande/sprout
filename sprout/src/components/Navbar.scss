@@ -1,4 +1,44 @@
+.entire-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  top: 0;
+  z-index: 9999;
+  position: fixed;
+  right: 0;
+  left: 0;
+  // width: 100%;
+  background-color: rgb(220, 250, 234);
+}
+
 .top-right {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
+  margin-left: auto;
+}
+
+.top-right span {
+  margin: 2px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 600;
+}
+
+.login-link, .reg-link {
+  text-decoration: none;
+  color: rgb(36, 36, 36);
+}
+
+.logo-name {
+  display: flex;
+  justify-content: flex-start;
+  text-decoration: none;
+  font-family: 'Khula', sans-serif;
+  font-weight: 800;
+  font-size: 35px;
+}
+
+.logo-link {
+  text-decoration: none;
+  color: rgb(36, 36, 36);
 }
