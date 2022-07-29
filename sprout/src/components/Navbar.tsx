@@ -3,18 +3,23 @@ import { Link } from "react-router-dom";
 import "./Navbar.scss";
 
 const Navbar = () => (
-  <div>
+  <nav className="entire-nav">
+    <div className="top-left">
+      <Link className="logo-link" to="/">
+        <span className="logo-name">Sprout</span>
+      </Link>
+    </div>
     <div className="top-right">
       <span>
-        <Link to="/login">
-          <button>Login</button>
+        <Link className="login-link" to="/login">
+          <span>Login</span>
         </Link>
-        <Link to="/register">
-          <button>Register</button>
+        <Link className="reg-link" to="/register">
+          <span>Register</span>
         </Link>
       </span>
     </div>
-  </div>
+  </nav>
 );
 
 export default Navbar;
