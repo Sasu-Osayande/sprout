@@ -1,8 +1,11 @@
 import { FC } from "react";
 import "./Register.scss";
 
+import Navbar from "./Navbar";
+
 const Register: FC = () => (
   <div>
+    <Navbar />
     <header>Register</header>
     <div>
       <form>

@@ -2,8 +2,11 @@ import { FC } from "react";
 import { Link } from "react-router-dom";
 import "./Login.scss";
 
+import Navbar from "./Navbar";
+
 const Login: FC = () => (
   <div>
+    <Navbar />
     <header>Login</header>
     <div>
       <form>
