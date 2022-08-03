@@ -1,0 +1,43 @@
+.login-title {
+  display: flex;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 800;
+  font-size: 35px;
+  margin-top: 90px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.whole-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.form-container {
+  width: 25vw;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  background: rgba(247, 248, 249, 0.68);
+  border-radius: 8px;
+  padding: 30px;
+  overflow: auto;
+  max-height: 100vh;
+  border: 1px solid white;
+}
+
+input {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  width: 200px;
+  border: none;
+  border-bottom: 2px solid rgb(36, 36, 36);
+}
