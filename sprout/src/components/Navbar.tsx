@@ -9,6 +9,9 @@ const Navbar = () => (
         <span className="logo-name">Sprout</span>
       </Link>
     </div>
+    <div className="middle-nav">
+      <span>Learn</span>
+    </div>
     <div className="top-right">
       <span>
         <Link className="login-link" to="/login">
@@ -18,6 +21,12 @@ const Navbar = () => (
           <span>Register</span>
         </Link>
       </span>
+    </div>
+    <div className="dark-mode">
+      <label className="switch">
+        <input type="checkbox" />
+        <span className="slider round"></span>
+      </label>
     </div>
   </nav>
 );
