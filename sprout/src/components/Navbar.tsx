@@ -10,7 +10,14 @@ const Navbar = () => (
       </Link>
     </div>
     <div className="middle-nav">
-      <span>Learn</span>
+      <div className="dropdown">
+        <button className="dropdown-btn">Learn</button>
+        <div className="dropdown-content">
+          <Link className="about-link" to="/">
+            <span>About Us</span>
+          </Link>
+        </div>
+      </div>
     </div>
     <div className="top-right">
       <span>

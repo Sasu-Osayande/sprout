@@ -12,19 +12,66 @@
   background-color: rgb(220, 250, 234);
 }
 
+.middle-nav {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 600;
+  color: rgb(36, 36, 36);
+}
+
+.dropdown-btn {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 600;
+  background-color: transparent;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  // min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content .about-link {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: flex;
+}
+
+.dropdown:hover .dropdown-content {
+  display: flex;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content .about-link:hover {
+  background-color: #f1f1f1;
+}
+
 .top-right {
   display: flex;
   justify-content: flex-end;
   margin-left: auto;
+  padding-right: 15px;
 }
 
 .top-right span {
-  margin: 2px;
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  margin: 10px;
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 600;
 }
 
-.login-link, .reg-link {
+.login-link,
+.reg-link {
   text-decoration: none;
   color: rgb(36, 36, 36);
 }
@@ -33,7 +80,7 @@
   display: flex;
   justify-content: flex-start;
   text-decoration: none;
-  font-family: 'Khula', sans-serif;
+  font-family: "Khula", sans-serif;
   font-weight: 800;
   font-size: 35px;
 }
@@ -67,8 +114,8 @@
   right: 0;
   bottom: 0;
   background-color: #ccc;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .slider:before {
@@ -79,8 +126,8 @@
   left: 4px;
   bottom: 4px;
   background-color: white;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 input:checked + .slider {
