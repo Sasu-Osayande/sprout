@@ -13,9 +13,11 @@ const Login: FC = () => (
       <form className="login-form">
         <input type="text" placeholder="username"></input>
         <input type="password" placeholder="password"></input>
+        <div className="login-form-btn">
         <Link to="/feed">
-        <button type="submit">Login</button>
+        <button className="login-btn" type="submit">Login</button>
         </Link>
+        </div>
       </form>
     </div>
     </div>
