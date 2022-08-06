@@ -9,7 +9,7 @@
   padding-bottom: 40px;
 }
 
-.whole-container {
+.login-whole-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,7 +22,7 @@
   padding: 10px;
 }
 
-.form-container {
+.login-form-container {
   width: 25vw;
   height: 300px;
   display: flex;
@@ -35,7 +35,7 @@
   border: 1px solid white;
 }
 
-input {
+.login-input {
   outline: none;
   font-family: "Plus Jakarta Sans", sans-serif;
   width: 200px;
