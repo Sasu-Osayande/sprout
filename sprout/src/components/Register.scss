@@ -1,0 +1,73 @@
+.register-title {
+  display: flex;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 800;
+  font-size: 35px;
+  margin-top: 90px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.reg-whole-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.reg-form-container {
+  width: 25vw;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  background: rgba(247, 248, 249, 0.68);
+  border-radius: 8px;
+  padding: 30px;
+  overflow: auto;
+  max-height: 100vh;
+  border: 1px solid white;
+  margin-bottom: 40px;
+}
+
+.reg-input {
+  outline: none;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  width: 230px;
+  font-size: 17px;
+  border: none;
+  border-bottom: 2px solid rgb(36, 36, 36);
+  margin-bottom: 50px;
+  background-color: transparent;
+}
+
+.register-form-btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.register-btn {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  border: 1px solid rgb(227, 227, 227);
+  border-radius: 12px;
+  padding: 15px 25px;
+  text-decoration: none;
+  transition-duration: 0.4s;
+  background-color: white;
+  cursor: pointer;
+}
+
+.register-btn:hover {
+  background-color: rgb(235, 235, 235);
+  color: rgb(156, 179, 166);
+  border: none;
+  box-shadow: 0 12px 16px 0 rgba(159, 158, 158, 0.24), 0 17px 20px 0 rgba(177, 177, 177, 0.19);
+}
