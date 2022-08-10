@@ -2,7 +2,7 @@ import { FC } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.scss";
 
-const Navbar = () => (
+const Navbar: FC = () => (
   <nav className="entire-nav">
     <div className="top-left">
       <Link className="logo-link" to="/">
