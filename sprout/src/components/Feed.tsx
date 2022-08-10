@@ -1,10 +1,10 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import { FC } from "react";
+// import { Link } from "react-router-dom";
 import "./Feed.scss";
 
 import Navbar from "./Navbar";
 
-const Feed = () => {
+const Feed: FC = () => {
   return (
     <div>
       <Navbar />
