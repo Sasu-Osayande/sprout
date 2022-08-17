@@ -1,5 +1,7 @@
 import * as React from "react";
 
+// Create a light and dark theme and put it into an object
+
 const themes = {
   light: {
     backgroundColor: "white",
