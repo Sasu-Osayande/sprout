@@ -1,11 +1,19 @@
-import React from 'react';
+import React, { useContext } from "react";
 import './App.css';
 import Main from './components/Main';
+import { ThemeContext } from "./ThemeContext";
 
 function App() {
+  
+  const themes = React.useContext(ThemeContext);
+
   return (
-    <div className="App">
-      <Main />
+    <div className="App" style={{
+      borderColor: "black",
+      ...themes.dark
+    }}>
+      <Main
+  />
     </div>
   );
 }
