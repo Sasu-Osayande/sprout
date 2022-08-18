@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App" style={{
       borderColor: "black",
-      ...themes.dark
+      ...themes.light
     }}>
       <Main
   />
