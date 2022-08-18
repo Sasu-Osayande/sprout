@@ -12,6 +12,7 @@ const themes = {
   },
 };
 
+// Get value for the key theme from localStorage
 const getTheme = () => {
   const theme = localStorage.getItem("theme");
   if (!theme) {
@@ -29,8 +30,10 @@ export const ThemeContext = React.createContext(themes);
 // Provide value to children elements and pass object to value attribute
 export const ThemeProvider = ({ children }: { children: React.ReactNode }) => {
 
+  // Pass initial state, return variable with current state value, and update value
   const [theme, setTheme] = useState(getTheme);
 
+  // toggle state variable theme from “dark” to “light”
   function toggleTheme() {
     if (theme === "dark") {
       setTheme("light");
